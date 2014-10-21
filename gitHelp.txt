@@ -7,3 +7,5 @@ git push: commit the change to repository.
 git reset: pull the ready for commit status back to changed status.
 git reset HEAD^: split the local commit.
 git revert: revert the pushed commit.
+
+git commit -amend: amend the current change to the local commit.
