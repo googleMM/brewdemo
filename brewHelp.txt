@@ -1,1 +1,6 @@
-this is the first commit....
+Url:
+how to install brew:
+how to install git use brew:
+
+brew for mac.
+how do we do the same functionality in windows:
