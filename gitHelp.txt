@@ -1,0 +1,9 @@
+git clone <git repository url> : checkout code.
+git pull: update code to local from repository.
+git status: check the current status of the repository.
+git add .: change the file status from changed to ready for commit.
+git commit -m "comments": do a commit in local.
+git push: commit the change to repository.
+git reset: pull the ready for commit status back to changed status.
+git reset HEAD^: split the local commit.
+git revert: revert the pushed commit.
