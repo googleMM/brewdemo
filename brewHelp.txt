@@ -6,4 +6,13 @@ How to install git use brew: brew install git
 
 Chocolatey - the install tool for Windows
 Url: http://chocolatey.org
+
+How to install chocolatey: there are two ways
+
+1) open an administrative cmd.exe command prompt and paste the text below and press enter. 
+C:\> @powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
+
+2) For administrative PowerShell copy the text below (Ensure Get-ExecutionPolicy is at least Bypass).
+PS:\> iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
+
 How to install git in chocolatey: c:\>choco install git
