@@ -1,6 +1,4 @@
-Url:
-how to install brew:
-how to install git use brew:
-
-brew for mac.
-how do we do the same functionality in windows:
+Homebrew Url: http://brew.sh
+How to install brew: Paste that at a Terminal prompt
+                     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+How to install git use brew: brew install git
